@@ -3,3 +3,8 @@ c:\Users\rober\documents\visual studio 2012\Projects\project\PL_Project\bin\PL_P
 c:\Users\rober\documents\visual studio 2012\Projects\project\PL_Project\obj\Debug\PL_Project.csprojResolveAssemblyReference.cache
 c:\Users\rober\documents\visual studio 2012\Projects\project\PL_Project\obj\Debug\PL_Project.dll
 c:\Users\rober\documents\visual studio 2012\Projects\project\PL_Project\obj\Debug\PL_Project.pdb
+C:\Users\rober\Documents\GitHub\UAM-p4-Inv\project\PL_Project\bin\PL_Project.dll
+C:\Users\rober\Documents\GitHub\UAM-p4-Inv\project\PL_Project\bin\PL_Project.pdb
+C:\Users\rober\Documents\GitHub\UAM-p4-Inv\project\PL_Project\obj\Debug\PL_Project.csprojResolveAssemblyReference.cache
+C:\Users\rober\Documents\GitHub\UAM-p4-Inv\project\PL_Project\obj\Debug\PL_Project.dll
+C:\Users\rober\Documents\GitHub\UAM-p4-Inv\project\PL_Project\obj\Debug\PL_Project.pdb

@@ -73,6 +73,7 @@ h2 {
 	font-size: 24px;
 	font-weight: normal;
 	color: #106fb8;
+    text-align: center;
 }
 
 h3 {
@@ -218,9 +219,12 @@ h3 {
 	width: 270px;
 }
 
-.sidebar_box {
-	padding: 20px 30px;
-	background: #fff;
+.sidebar_box
+{
+    padding: 20px 30px;
+    background: #fff;
+    align-content: center;
+
 }
 
 .sidebar_box_bottom {

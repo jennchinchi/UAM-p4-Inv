@@ -53,7 +53,7 @@
     
     	<div class="sidebar_box">
         	
-            <h2>UPato</h2>
+            <h2>UPato ONLINE </h2>
             
             <div class="news_box">
                
@@ -65,6 +65,9 @@
         </div><div class="sidebar_box_bottom"></div>
         
         <div class="sidebar_box">
+			
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+            </asp:ContentPlaceHolder>
 			
         </div><div class="sidebar_box_bottom"></div>
     
@@ -102,7 +105,7 @@
                      
                 </ul>
                 
-                UAM - &copy 2015 <a href="#">Your Company Name</a> <!-- Credit: www.templatemo.com -->| 
+                U3P - &copy 2015 <a href="#">UNIVERSIDAD LOS TRES PATOS</a> <!-- Credit: www.templatemo.com -->| 
                 
     </div>
     
