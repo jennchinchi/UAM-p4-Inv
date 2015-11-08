@@ -2,7 +2,18 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder2">
-    <table border="0" style="width: 116%; height: 124px; font-style: italic; margin-left: 0px;">
+    <div id='cssmenu'>
+                    <ul>
+                                               
+                        <li><a href="#"><span>Gestion de Matricula</span></a></li>
+                        <li><a href='#'><span>Consulta Programa</span></a></li>
+                
+                    </ul>
+                    </div>
+</asp:Content>
+<asp:Content ID="Content4" runat="server" contentplaceholderid="ContentPlaceHolder4">
+
+        <table border="0" style="width: 116%; height: 124px; font-style: italic; margin-left: 0px;">
     <tr>
         <td colspan="3" style="height: 53px; text-align: center">
             <asp:Label ID="Label1" runat="server" Text="Calendario de Cursos Lectivos"></asp:Label>
@@ -39,16 +50,5 @@
         </td>
     </tr>
 </table>
-</asp:Content>
-<asp:Content ID="Content4" runat="server" contentplaceholderid="ContentPlaceHolder4">
-
-    <div id='cssmenu'>
-                    <ul>
-                                               
-                        <li><a href="#"><span>Gestion de Matricula</span></a></li>
-                        <li><a href='#'><span>Consulta Programa</span></a></li>
-                
-                    </ul>
-                    </div>
 </asp:Content>
 

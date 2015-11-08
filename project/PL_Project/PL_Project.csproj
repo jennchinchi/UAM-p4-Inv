@@ -72,6 +72,8 @@
     <Content Include="images\templatemo_sidebar_section_bottom.jpg" />
     <Content Include="images\User-Files-icon.png" />
     <Content Include="inicio.aspx" />
+    <Content Include="StyleSheet.css" />
+    <Content Include="wfrmLogin.aspx" />
     <Content Include="wfrmMantenimientoExpediente.aspx" />
     <Content Include="menuVertical.css" />
     <Content Include="templatemo_style.css" />
@@ -89,6 +91,13 @@
     </Compile>
     <Compile Include="inicio.aspx.designer.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrmLogin.aspx.cs">
+      <DependentUpon>wfrmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrmLogin.aspx.designer.cs">
+      <DependentUpon>wfrmLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="wfrmMantenimientoExpediente.aspx.cs">
       <DependentUpon>wfrmMantenimientoExpediente.aspx</DependentUpon>
