@@ -71,7 +71,11 @@
     <Content Include="images\templatemo_menu_hover.jpg" />
     <Content Include="images\templatemo_sidebar_section_bottom.jpg" />
     <Content Include="images\User-Files-icon.png" />
-    <Content Include="inicio.aspx" />
+    <Content Include="wfrmConsultaCalificaciones.aspx" />
+    <Content Include="wfrmDesbloqueoCalificaciones.aspx" />
+    <Content Include="wfrmInicio.aspx" />
+    <Content Include="wfrmConsultaPrograma.aspx" />
+    <Content Include="wfrmGestionMatricula.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="wfrmLogin.aspx" />
     <Content Include="wfrmMantenimientoExpediente.aspx" />
@@ -83,14 +87,43 @@
     <Content Include="wfrmMantenimiento.aspx" />
     <Content Include="wfrmNotas.aspx" />
     <Content Include="wfrmPrograma.aspx" />
+    <Content Include="wfrmRegistroCalificaciones.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="inicio.aspx.cs">
-      <DependentUpon>inicio.aspx</DependentUpon>
+    <Compile Include="wfrmConsultaCalificaciones.aspx.cs">
+      <DependentUpon>wfrmConsultaCalificaciones.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="inicio.aspx.designer.cs">
-      <DependentUpon>inicio.aspx</DependentUpon>
+    <Compile Include="wfrmConsultaCalificaciones.aspx.designer.cs">
+      <DependentUpon>wfrmConsultaCalificaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrmDesbloqueoCalificaciones.aspx.cs">
+      <DependentUpon>wfrmDesbloqueoCalificaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrmDesbloqueoCalificaciones.aspx.designer.cs">
+      <DependentUpon>wfrmDesbloqueoCalificaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrmInicio.aspx.cs">
+      <DependentUpon>wfrmInicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrmInicio.aspx.designer.cs">
+      <DependentUpon>wfrmInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrmConsultaPrograma.aspx.cs">
+      <DependentUpon>wfrmConsultaPrograma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrmConsultaPrograma.aspx.designer.cs">
+      <DependentUpon>wfrmConsultaPrograma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrmGestionMatricula.aspx.cs">
+      <DependentUpon>wfrmGestionMatricula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrmGestionMatricula.aspx.designer.cs">
+      <DependentUpon>wfrmGestionMatricula.aspx</DependentUpon>
     </Compile>
     <Compile Include="wfrmLogin.aspx.cs">
       <DependentUpon>wfrmLogin.aspx</DependentUpon>
@@ -149,6 +182,13 @@
     <Compile Include="wfrmPrograma.aspx.designer.cs">
       <DependentUpon>wfrmPrograma.aspx</DependentUpon>
     </Compile>
+    <Compile Include="wfrmRegistroCalificaciones.aspx.cs">
+      <DependentUpon>wfrmRegistroCalificaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrmRegistroCalificaciones.aspx.designer.cs">
+      <DependentUpon>wfrmRegistroCalificaciones.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site1.Master" />
@@ -159,7 +199,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Programa\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

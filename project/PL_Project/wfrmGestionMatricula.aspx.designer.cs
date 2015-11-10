@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PL_Project {
+namespace PL_Project.Programa {
     
     
-    public partial class wfrmNotas {
+    public partial class wfrmGestionMatricula {
     }
 }

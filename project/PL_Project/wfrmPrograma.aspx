@@ -5,9 +5,9 @@
     <div id='cssmenu'>
                     <ul>
                                                
-                        <li><a href="#"><span>Gestion de Matricula</span></a></li>
-                        <li><a href='#'><span>Consulta Programa</span></a></li>
-                
+                        <li><a href="wfrmGestionMatricula.aspx"><span>Gestion de Matricula</span></a></li>
+                        <li><a href="wfrmConsultaPrograma.aspx"><span>Consulta Programa</span></a></li>
+                        
                     </ul>
                     </div>
 </asp:Content>

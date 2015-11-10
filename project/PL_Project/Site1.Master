@@ -8,12 +8,12 @@
     <meta name="keywords" content="U" />    
     <title>UPato</title>
 
+            <link href="templatemo_style.css" rel="stylesheet" />
 
-<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
-<link href="hojaEstilo2.css" rel="stylesheet" />
-<link href="menuVertical.css" rel="stylesheet" />
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<script src="script.js"></script>
+            <link href="hojaEstilo2.css" rel="stylesheet" />
+            <link href="menuVertical.css" rel="stylesheet" />
+            <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+            <script src="script.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -36,7 +36,7 @@
     <div id="templatemo_menu">
         
         <ul>
-            <li><a href="inicio.aspx" class="current">Home</a></li>
+            <li><a href="wfrmInicio.aspx" class="current">Home</a></li>
             <li><a href="wfrmExpediente.aspx">Expediente</a></li>
             <li><a href="wfrmPrograma.aspx">Programa</a></li>
             <li><a href="wfrmNotas.aspx">Notas</a></li>
