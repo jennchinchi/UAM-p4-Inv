@@ -1,0 +1,6 @@
+c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Universidad\bin\PL_Universidad.dll
+c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Universidad\bin\PL_Universidad.pdb
+c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Universidad\obj\Debug\PL_Universidad.csprojResolveAssemblyReference.cache
+c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Universidad\obj\Debug\PL_Universidad.dll
+c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Universidad\obj\Debug\PL_Universidad.pdb
+c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Universidad\bin\AjaxControlToolkit.dll

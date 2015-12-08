@@ -1,0 +1,74 @@
+﻿*
+{
+    margin:0;
+    padding:0;
+}
+
+header, section, footer, aside, nav {
+  display: block;
+}
+
+.auto-style1
+{
+    width: 156px;
+    text-align: left;
+    font-family:Calibri;
+    font-size:15px;
+    color:#249ED6;
+}
+
+h1,h2
+{
+    text-align:left;
+    font-family:Calibri;
+    font-size:20px;
+    color:#249ED6;
+}
+#cabecera
+{
+    
+    background-image:url(http://localhost:48859/Imagenes/headerFormularios.png); 
+    background-size: cover ;
+    border:1px solid #fff;
+    padding:120px;
+}
+
+#pie 
+{
+    clear:both;
+    text-align:center;
+    padding:20px;
+    border-top: 2px solid #999999;
+ }
+
+#seccion {
+  float: left;
+  width: 660px;
+  margin: 20px;
+}
+
+#columna {
+  float: left;
+  width: 220px;
+  margin: 20px 0px;
+  padding: 20px;
+  background: #F0F8FF;
+}
+
+#agrupar {
+ width:100%;
+    height:auto; 
+}
+
+@media screen (max-width:768px)
+{
+    #agrupar{
+        width:100%
+     }
+}
+
+@media (max-width: 768px) {
+	#cabecera {
+	    background-size: 100% 100%;
+	}
+}

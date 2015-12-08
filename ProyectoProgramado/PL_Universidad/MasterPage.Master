@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="PL_Universidad.MasterPage" %>
+<%@ Register Src="~/Controles/HeaderUsuario.ascx" TagPrefix="uc1" TagName="HeaderUsuario" %>
+<%@ Register Src="~/Controles/MenuPrincipal.ascx" TagPrefix="uc1" TagName="MenuPrincipal" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+    <meta charset="iso-8859-1">
+    <meta name="description" content="Gestion U-Online">
+    <title>Universidad Virtual</title>
+    <link href="Estilos/FrontEnd.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="agrupar">
+            <header id="cabecera" runat="server">
+                <uc1:HeaderUsuario runat="server" ID="HeaderUsuario" />
+            </header>
+            <uc1:MenuPrincipal runat="server" ID="MenuPrincipal" />
+            <section id="seccion">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+            <aside id="columna">
+                <blockquote style="width: 237px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                    </asp:ContentPlaceHolder>
+                </blockquote>
+                <blockquote style="width: 238px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </blockquote>
+            </aside>
+            <footer id="pie">
+                Derechos Reservados -UAM- &copy; 2015
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

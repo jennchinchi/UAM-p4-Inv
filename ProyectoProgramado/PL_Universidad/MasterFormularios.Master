@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterFormularios.master.cs" Inherits="PL_Universidad.MasterFormularios" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head id="Head1" runat="server">
+    <meta charset="iso-8859-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta name="description" content="Gestion U-Online">
+    <title>Universidad 4</title>
+    <link href="Estilos/FrontEnd2.css" rel="stylesheet" />
+    <link href="Estilos/fontello.css" rel="stylesheet" />
+    <link href="Estilos/MenuJQ.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            height: 21px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <div class="agrupar">
+            <header id="cabecera">
+            </header>
+
+            <div class="menuAgrupado">
+                <input type="checkbox" id="btnMenu">
+                <label for="btnMenu" class="icon-menu"></label>
+                <nav class="menu">
+                    <ul>
+                        <li class="submenu"><a href="#">Expediente<span class="icon-down-open"></span></a>
+                            <ul>
+                                <li><a href="wfrmCrearExpediente.aspx">Crear</a></li>
+                                <li><a href="#">Actualizar</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu"><a href="#">Programa<span class="icon-down-open"></span></a>
+
+                            <ul>
+                                <li><a href="#">Matricula</a></li>
+                                <li><a href="#">Consulta</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="submenu"><a href="#">Notas<span class="icon-down-open"></span></a>
+
+                            <ul>
+                                <li><a href="#">Registro</a></li>
+                                <li><a href="#">Desbloqueo</a></li>
+                                <li><a href="#">Consulta</a></li>
+
+
+                            </ul>
+                        </li>
+
+                        <li class="submenu"><a href="#">Certificados<span class="icon-down-open"></span></a>
+
+                            <ul>
+                                <li><a href="#">Generar</a></li>
+
+
+                            </ul>
+                        </li>
+
+                        <li class="submenu"><a href="#">Mantenimiento<span class="icon-down-open"></span></a>
+
+                            <ul>
+                                <li><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                                <li><a href="#">Item 3</a></li>
+                                <li><a href="#">Item 4</a></li>
+                                <li><a href="#">Item 5</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </nav>
+            </div>
+            <script src="Script/menu.js"></script>
+
+
+            <section id="seccion">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+
+            <footer id="pie">
+                Derechos Reservados -UAM- &copy; 2015
+            </footer>
+
+
+        </div>
+    </form>
+
+</body>
+</html>
