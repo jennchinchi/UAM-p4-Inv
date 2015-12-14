@@ -15,6 +15,7 @@ namespace Datos
         string buscar = "sp_Buscar_Usuario";
         string buscarPorId = "sp_Buscar_Usuario_Por_Id";
         string buscarDatosPersonales = "sp_Buscar_Datos_Personales";
+        string buscarEstudiantesPorCurso = "sp_BuscarEstudiantesPorMatriculaPorCurso";
         string insertarDatosPersonales = "sp_Insertar_Datos_Personales";
         string modificarDatosPersonales = "sp_Modificar_Datos_Personales";
         #endregion
@@ -59,6 +60,17 @@ namespace Datos
             SqlCommand cmd = new SqlCommand();
             cmd.CommandText = buscarDatosPersonales;
             SqlParameter pid = new SqlParameter("@Id", SqlDbType.UniqueIdentifier);
+            pid.Value = id;
+            cmd.Parameters.Add(pid);
+            return Consultar(cmd, "AspNetUsers");
+        }
+
+        //Jenn
+        public DataSet BuscarPorCurso(Guid id)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = buscarEstudiantesPorCurso;
+            SqlParameter pid = new SqlParameter("@ID_Curso", SqlDbType.UniqueIdentifier);
             pid.Value = id;
             cmd.Parameters.Add(pid);
             return Consultar(cmd, "AspNetUsers");

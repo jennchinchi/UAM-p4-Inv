@@ -52,7 +52,7 @@
                         <li class="submenu"><a href="#">Notas<span class="icon-down-open"></span></a>
 
                             <ul>
-                                <li><a href="#">Registro</a></li>
+                                <li><a href="/Notas/wfrmBuscarCursoEstudiante.aspx">Registro</a></li>
                                 <li><a href="#">Desbloqueo</a></li>
                                 <li><a href="#">Consulta</a></li>
 

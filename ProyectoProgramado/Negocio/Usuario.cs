@@ -196,6 +196,21 @@ namespace Negocio
             return null;
         }
 
+        //Jenn
+        public static List<Usuario> BuscarPorCurso(Guid id)
+        {
+            List<Usuario> result = new List<Usuario>();
+            DataSet set = new Datos.ConexionUsuarios().BuscarPorCurso(id);
+            foreach (DataRow actual in set.Tables[0].Rows)
+            {
+                Usuario nuevo = new Usuario();
+                nuevo.IdUsuario = new Guid(actual.ItemArray[0].ToString());
+                nuevo.Nombre = actual.ItemArray[1].ToString();
+                result.Add(nuevo);
+            }
+            return result;
+        }
+
         public static bool Insertar(Guid idUsuario, string nombre, string primerApellido, string segundoApellido,
             string numeroIdentificacion, Guid idPais, Guid idProvincia, Guid idCanton, Guid idDistrito,
             string direccion, string telefonoMovil, string telefonoFijo, string correo, string urlFoto,
