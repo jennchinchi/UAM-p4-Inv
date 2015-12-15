@@ -4,3 +4,35 @@ c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Unive
 c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Universidad\obj\Debug\PL_Universidad.dll
 c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Universidad\obj\Debug\PL_Universidad.pdb
 c:\users\rober\documents\visual studio 2012\Projects\ProyectoProgramado\PL_Universidad\bin\AjaxControlToolkit.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\PL_Universidad.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\PL_Universidad.pdb
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\EntityFramework.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\EntityFramework.SqlServer.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.Security.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Negocio.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Newtonsoft.Json.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Owin.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Datos.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Negocio.pdb
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\EntityFramework.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\EntityFramework.SqlServer.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.Security.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Newtonsoft.Json.xml
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\bin\Datos.pdb
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\obj\Debug\PL_Universidad.csprojResolveAssemblyReference.cache
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\obj\Debug\PL_Universidad.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\PL_Universidad\obj\Debug\PL_Universidad.pdb

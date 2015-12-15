@@ -39,12 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calificacion.cs" />
     <Compile Include="Canton.cs" />
+    <Compile Include="Curso.cs" />
     <Compile Include="Distrito.cs" />
     <Compile Include="EstadoCivil.cs" />
     <Compile Include="Pais.cs" />
     <Compile Include="Provincia.cs" />
     <Compile Include="Rol.cs" />
+    <Compile Include="Rubro.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

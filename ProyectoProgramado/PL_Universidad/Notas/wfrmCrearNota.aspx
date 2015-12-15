@@ -1,6 +1,22 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterFormularios.Master" AutoEventWireup="true" CodeBehind="wfrmCrearNota.aspx.cs" Inherits="PL_Universidad.Notas.wfrmCrearNota" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
+    <style type="text/css">
+        .auto-style3
+        {
+            width: 156px;
+            text-align: left;
+            font-family: Calibri;
+            font-size: 15px;
+            color: #249ED6;
+            height: 69px;
+        }
+        .auto-style4
+        {
+            height: 69px;
+        }
+    </style>
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <table style="width:100%;">
@@ -27,19 +43,7 @@
         <tr>
             <td class="auto-style1">Estudiante:</td>
             <td>
-                <asp:TextBox ID="TextBox1" runat="server" Height="16px" Width="200px"></asp:TextBox>
-            </td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style1">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style1">Materia:</td>
-            <td>
-                <asp:TextBox ID="TextBox2" runat="server" Height="16px" Width="200px"></asp:TextBox>
+                <asp:TextBox ID="txtEstudiante" runat="server" Height="16px" Width="200px" Enabled="False"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -51,7 +55,9 @@
         <tr>
             <td class="auto-style1">Rubro:</td>
             <td>
-                <asp:TextBox ID="TextBox3" runat="server" Height="16px" Width="200px"></asp:TextBox>
+                <asp:DropDownList ID="cmbRubros" runat="server" Height="23px" AutoPostBack="True" OnSelectedIndexChanged="cmbRubros_SelectedIndexChanged" Width="198px" AppendDataBoundItems="True">
+                    <asp:ListItem Text="--Seleccionar--" Value="" Selected="True" />
+                </asp:DropDownList>
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -64,14 +70,20 @@
         <tr>
             <td class="auto-style1">Nota:</td>
             <td>
-                <asp:TextBox ID="TextBox10" runat="server" Height="16px" Width="200px"></asp:TextBox>
+                <asp:TextBox ID="txtNota" runat="server" Height="16px" Width="200px"></asp:TextBox>
+                <asp:Label ID="lblPorcentaje" runat="server"></asp:Label>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtNota" ErrorMessage="Solo numeros" ValidationExpression="^\d+$">*</asp:RegularExpressionValidator>
+                <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style1">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style3"></td>
+            <td class="auto-style4">
+                <asp:Button ID="btnRegistrar" runat="server" Height="47px" OnClick="btnRegistrar_Click" Text="Registrar" Width="125px" />
+                <asp:Label ID="lblMessage" runat="server"></asp:Label>
+            </td>
+            <td class="auto-style4"></td>
         </tr>     
     </table>
 

@@ -12,6 +12,9 @@ namespace PL_Universidad.Notas
 {
     public partial class wfrmBuscarCursoEstudiante : System.Web.UI.Page
     {
+        private static List<Curso> cursos;
+        private static List<Usuario> estudiantes;
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -20,7 +23,7 @@ namespace PL_Universidad.Notas
                 {
                     //Usuario;
                     Guid idUsuario = Guid.Parse(User.Identity.GetUserId());
-                    List<Curso> cursos = Curso.ListarPorProProfesor(idUsuario);
+                    cursos = Curso.ListarPorProProfesor(idUsuario);
                     cmbCursos.DataTextField = "Nombre";
                     cmbCursos.DataValueField = "Id";
                     cmbCursos.DataSource = cursos;
@@ -37,7 +40,7 @@ namespace PL_Universidad.Notas
         protected void cmbCursos_SelectedIndexChanged(object sender, EventArgs e)
         {
             Guid idCurso = Guid.Parse(cmbCursos.SelectedValue);
-            List<Usuario> estudiantes = Usuario.BuscarPorCurso(idCurso);
+            estudiantes = Usuario.BuscarPorCurso(idCurso);
             cmbEstudiantes.DataTextField = "Nombre";
             cmbEstudiantes.DataValueField = "IdUsuario";
             cmbEstudiantes.DataSource = estudiantes;
@@ -46,7 +49,9 @@ namespace PL_Universidad.Notas
 
         protected void cmbEstudiantes_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Response.Redirect("/Notas/wfrmCrearNota.aspx");
+            Guid id_m = cursos[cmbCursos.SelectedIndex-1].Matricula;
+            Guid id_e = estudiantes[cmbEstudiantes.SelectedIndex-1].IdUsuario;
+            Response.Redirect("/Notas/wfrmCrearNota.aspx?id_matricula="+ id_m +"&id_est="+ id_e);
         }
     }
 }

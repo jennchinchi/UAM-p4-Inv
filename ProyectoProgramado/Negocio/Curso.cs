@@ -20,6 +20,7 @@ namespace Negocio
         private DateTime horaEntrada;
         private DateTime horaSalida;
         private String nombre;
+        private Guid matricula;
     #endregion
 
     #region Properties
@@ -76,6 +77,12 @@ namespace Negocio
             get { return nombre; }
             set { nombre = value; }
         }
+
+        public Guid Matricula
+        {
+            get { return matricula; }
+            set { matricula = value; }
+        }
     #endregion
 
     #region Metodos
@@ -88,6 +95,7 @@ namespace Negocio
                 Curso nuevo = new Curso();
                 nuevo.Id = new Guid(actual.ItemArray[0].ToString());
                 nuevo.Nombre = actual.ItemArray[8].ToString();
+                nuevo.Matricula = new Guid(actual.ItemArray[9].ToString());
                 result.Add(nuevo);
             }
             return result;

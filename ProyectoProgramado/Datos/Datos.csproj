@@ -41,12 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexionBD.cs" />
+    <Compile Include="ConexionCalificacion.cs" />
     <Compile Include="ConexionCantones.cs" />
+    <Compile Include="ConexionCurso.cs" />
     <Compile Include="ConexionDistritos.cs" />
     <Compile Include="ConexionEstadoCivil.cs" />
     <Compile Include="ConexionPaises.cs" />
     <Compile Include="ConexionProvincias.cs" />
     <Compile Include="ConexionRoles.cs" />
+    <Compile Include="ConexionRubros.cs" />
     <Compile Include="ConexionUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

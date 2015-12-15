@@ -53,8 +53,8 @@
 
                             <ul>
                                 <li><a href="/Notas/wfrmBuscarCursoEstudiante.aspx">Registro</a></li>
-                                <li><a href="#">Desbloqueo</a></li>
-                                <li><a href="#">Consulta</a></li>
+                                <li><a href="/Notas/wfrmDesbloquearNotas.aspx">Desbloqueo</a></li>
+                                <li><a href="/Notas/wfrmConsultarNota.aspx"">Consulta</a></li>
 
 
                             </ul>

@@ -1,0 +1,7 @@
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\Negocio\bin\Debug\Negocio.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\Negocio\bin\Debug\Datos.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\Negocio\bin\Debug\Datos.pdb
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\Negocio\obj\Debug\Negocio.dll
+C:\Users\Jenn\Documents\GitHub\UAM-p4-Inv\ProyectoProgramado\Negocio\obj\Debug\Negocio.pdb
